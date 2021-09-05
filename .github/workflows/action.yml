@@ -13,6 +13,6 @@ jobs:
       - uses: puf17640/covid-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: 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
           COUNTRY: ${{ secrets.COUNTRY }}
           GIST_ID: ${{ secrets.GIST_ID }}
