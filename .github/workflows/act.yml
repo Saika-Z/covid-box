@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@master
       - uses: Saika-Z/covid-box@master
         env:
-          GH_PAT: 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
+          GH_PAT: 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
           COUNTRY: ${{ secrets.COUNTRY }}
           GIST_ID: 51180172b81924cbb5d5b2d53ee9ec4d
