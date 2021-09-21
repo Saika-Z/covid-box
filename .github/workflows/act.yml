@@ -12,7 +12,6 @@ jobs:
       - uses: actions/checkout@master
       - uses: Saika-Z/covid-box@master
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          GITHUB_TOKEN: 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
+          GH_PAT: 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
           COUNTRY: ${{ secrets.COUNTRY }}
-          GIST_ID: ${{ secrets.GIST_ID }}
+          GIST_ID: 51180172b81924cbb5d5b2d53ee9ec4d
