@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
-      #- uses: Saika-Z/covid-box@master
-      - name: Update gist
-        uses: Saika-Z/covid-box@master
+      - uses: actions/checkout@v1
+      - uses: Saika-Z/covid-box@master
+     # - name: Update gist
+        #uses: Saika-Z/covid-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           COUNTRY: ${{ secrets.COUNTRY }}
