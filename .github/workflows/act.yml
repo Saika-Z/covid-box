@@ -9,11 +9,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - uses: Saika-Z/covid-box@master
-     # - name: Update gist
-        #uses: Saika-Z/covid-box@master
+      - uses: actions/checkout@master
+      #- uses: Saika-Z/covid-box@master
+      - name: Update gist
+        uses: Saika-Z/covid-box@master
         env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
           COUNTRY: ${{ secrets.COUNTRY }}
           GIST_ID: 51180172b81924cbb5d5b2d53ee9ec4d
