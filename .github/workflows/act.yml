@@ -17,4 +17,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
           COUNTRY: ${{ secrets.COUNTRY }}
-          GIST_ID: 7699ee555ea43cc032f587e54a11dbf8
+          GIST_ID: 6575c8f5312a1600735c8d18e8ff8cf6
